@@ -121,7 +121,7 @@ class ViewController: UIViewController {
         let bullet: Bullet!
         
         if whichSide == .left {
-            bullet = Bullet(frame: CGRect(x: -100, y: heightCoordinate, width: 65, height: 26))
+            bullet = Bullet(frame: CGRect(x: -100, y: heightCoordinate, width: 100, height: 26))
             bullet.image = #imageLiteral(resourceName: "tinhLeft")
             bullet.bulletController = self
             bullet.startMoving(.right)
